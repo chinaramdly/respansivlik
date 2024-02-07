@@ -1,0 +1,22 @@
+#circle
+    .box,.minibox
+        display: flex
+        justify-content: center
+        align-items: center
+    .minibox
+        width: 130px
+        height: 130px
+        border-radius: 70px
+        background-color: #866127
+        transition: 3s
+        &:hover
+            border-radius: 35px
+        h1
+            color: #ffff
+            font-size: 16px
+            font-weight: 700
+    @media ( max-width: 800px)
+        .minibox
+            width: 40px
+            height: 40px
+            background-color: #c7d271
