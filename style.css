@@ -40,7 +40,7 @@ body section {
 #demo .box .minibox, #demo .minibox .minibox {
   width: 140px;
   height: 75px;
-  background-color: white;
+  background-color: #9b6ca2;
   border: 2px solid #9b6ca2;
   border-radius: 5px;
 }
