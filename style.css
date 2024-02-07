@@ -3,7 +3,7 @@ body {
   font-weight: 500;
 }
 body section {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 #blue .box, #blue .minibox {
@@ -12,17 +12,40 @@ body section {
   align-items: center;
 }
 #blue .box {
-  width: 120px;
-  height: 120px;
-  background-color: #447a93;
+  width: 130px;
+  height: 130px;
+  background-color: #5282ad;
+  border: 1.5px solid #447237;
 }
 #blue .box .minibox {
-  width: 60px;
-  height: 60px;
-  background-color: #0b648d;
+  width: 65px;
+  height: 65px;
+  background-color: #2d517a;
+  transition: 2s;
+}
+#blue .box .minibox:hover {
+  width: 90px;
+  height: 90px;
 }
 #blue .box .minibox h1 {
   color: white;
   font-weight: 700;
   font-size: 13px;
+}
+
+#demo .box, #demo .minibox {
+  display: flex;
+  justify-content: center;
+}
+#demo .box .minibox, #demo .minibox .minibox {
+  width: 150px;
+  height: 75px;
+  background-color: #826282;
+  border: 2px solid #9b6ca2;
+  border-radius: 5px;
+}
+#demo .box .minibox h1, #demo .minibox .minibox h1 {
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
