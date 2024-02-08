@@ -37,7 +37,7 @@ body section {
   display: flex;
   justify-content: center;
 }
-#demo .box .minibox, #demo .minibox .minibox {
+#demo .minibox {
   width: 140px;
   height: 75px;
   background-color: #7f5978;
@@ -46,17 +46,17 @@ body section {
   transition: 1s;
   cursor: pointer;
 }
-#demo .box .minibox:hover, #demo .minibox .minibox:hover {
+#demo .minibox:hover {
   border: 4px solid #7f5978;
   background-color: #443c51;
 }
-#demo .box .minibox h1, #demo .minibox .minibox h1 {
+#demo .minibox h1 {
   color: white;
   margin-top: 10px;
   font-size: 14px;
 }
 @media (max-width: 800px) {
-  #demo .box .minibox, #demo .minibox .minibox {
+  #demo .minibox .minibox {
     width: 75px;
     height: 40px;
     background-color: #7280c2;
@@ -64,12 +64,12 @@ body section {
   }
 }
 @media (max-width: 500px) {
-  #demo .box .minibox, #demo .minibox .minibox {
+  #demo .minibox .minibox {
     width: 38px;
     height: 40px;
     background-color: #391a1a;
   }
-  #demo .box .minibox h1, #demo .minibox .minibox h1 {
+  #demo .minibox .minibox h1 {
     font-size: 8px;
   }
 }
@@ -80,9 +80,9 @@ body section {
   align-items: center;
 }
 #circle .minibox {
-  width: 130px;
-  height: 130px;
-  border-radius: 70px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
   background-color: #866127;
   transition: 3s;
 }
@@ -100,4 +100,48 @@ body section {
     height: 40px;
     background-color: #c7d271;
   }
+}
+
+#text .box {
+  position: relative;
+}
+#text .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 150px;
+  background-color: #456890;
+  margin: 10px;
+}
+#text .box .box5 {
+  margin: 0;
+  position: absolute;
+  left: 240px;
+}
+#text .box h1 {
+  color: white;
+  font-size: 22px;
+}
+
+#yellow .box {
+  position: relative;
+}
+#yellow .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 150px;
+  background-color: #679c69;
+  margin: 10px;
+}
+#yellow .box .box2 {
+  margin: 0;
+  position: absolute;
+  left: 240px;
+}
+#yellow .box h1 {
+  color: white;
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */
