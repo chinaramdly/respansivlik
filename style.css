@@ -33,30 +33,26 @@ body section {
   font-size: 13px;
 }
 
-#demo .box, #demo .minibox {
-  display: flex;
-  justify-content: center;
-}
-#demo .minibox {
+#demo .box {
   width: 140px;
-  height: 75px;
-  background-color: #7f5978;
-  border: 2px solid #7f5978;
+  height: 70px;
+  background-color: #835f7c;
+  border: 2px solid #835f7c;
   border-radius: 5px;
   transition: 1s;
   cursor: pointer;
 }
-#demo .minibox:hover {
+#demo .box:hover {
   border: 4px solid #7f5978;
   background-color: #443c51;
 }
-#demo .minibox h1 {
+#demo .box h1 {
   color: white;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 15px;
 }
 @media (max-width: 800px) {
-  #demo .minibox .minibox {
+  #demo .box {
     width: 75px;
     height: 40px;
     background-color: #7280c2;
@@ -64,30 +60,28 @@ body section {
   }
 }
 @media (max-width: 500px) {
-  #demo .minibox .minibox {
+  #demo .box {
     width: 38px;
     height: 40px;
     background-color: #391a1a;
   }
-  #demo .minibox .minibox h1 {
+  #demo .box h1 {
     font-size: 8px;
   }
 }
 
-#circle .box, #circle .minibox {
+#circle .minibox {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#circle .minibox {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 100px;
-  background-color: #866127;
+  background-color: #896826;
   transition: 3s;
 }
 #circle .minibox:hover {
-  border-radius: 35px;
+  border-radius: 30px;
 }
 #circle .minibox h1 {
   color: white;
